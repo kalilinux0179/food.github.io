@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Profile</title>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header class="header">
+        <section class="flex">
+            <a href="home.html" class="logo">yum-yum 😋</a>
+            <nav class="navbar">
+                <a href="home.html">home</a>
+                <a href="about.html">about</a>
+                <a href="menu.html">menu</a>
+                <a href="orders.html">orders</a>
+                <a href="contact.html">contact</a>
+            </nav>
+            <div class="icons">
+                <a href="search.html"><i class="fas fa-search"></i></a>
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="menu-btn" class="fas fa-bars"></div>
+            </div>
+            <div class="profile">
+                <p class="name">Tarun sahni</p>
+                <div class="flex">
+                    <a href="profile.html" class="btn">profile</a>
+                    <a href="#" class="delete-btn">logout</a>
+                </div>
+                <p class="account">
+                    <a href="login.html">login</a>
+                    or
+                    <a href="register.html">register</a>
+                </p>
+            </div>
+        </section>
+    </header>
+    <!-- header section ends -->
+    <!-- update profile starts -->
+    <section class="form-container">
+        <form action="" method="post">
+            <h3>Update Profile</h3>
+            <div class="name">
+                <input type="name" name="fname" required placeholder="First Name" class="fname" maxlength="50">
+                <input type="name" name="lname" required placeholder="Last Name" class="lname" maxlength="50">
+            </div>
+            <input type="email" name="name" required placeholder="Enter Your Email" class="box" maxlength="50">
+            <input type="password" name="old_password" required placeholder="Enter Your Old Password" class="box">
+            <input type="password" name="new_password" required placeholder="Enter Your New Password" class="box">
+            <input type="password" name="confirm_password" required placeholder="Confirm Your New Password" class="box">
+            <input type="submit" value="Update Profile" class="btn">
+        </form>
+    </section>
+    <!-- update profile ends -->
+    <!-- footer section starts -->
+    <footer class="footer">
+        <section class="grid">
+            <div class="box">
+                <img src="images/email-icon.png" alt="">
+                <h3>our email</h3>
+                <a href="mailto:dontexist@gmail.com">dontexist@gmail.com</a>
+                <a href="mailto:nothingexist@gmail.com">nothingexist@gmail.com</a>
+            </div>
+            <div class="box">
+                <img src="images/clock-icon.png" alt="">
+                <h3>Opening hours</h3>
+                <p>00:07am to 00:10pm</p>
+            </div>
+            <div class="box">
+                <img src="images/map-icon.png" alt="">
+                <h3>our address</h3>
+                <a href="#">uttam nagar, delhi, india - 110017</a>
+            </div>
+            <div class="box">
+                <img src="images/phone-icon.png" alt="">
+                <h3>Opening number</h3>
+                <a href="tel:-987654123">987654123</a>
+                <a href="tel:-123456798">123456798</a>
+
+            </div>
+        </section>
+        <div class="credit">created by <span>Mr. tarun sahni</span> | all right reserved!</div>
+    </footer>
+    <!-- footer section ends -->
+    <!-- loader starts -->
+    <div class="loader">
+        <img src="images/loader.gif" alt="">
+    </div>
+    <!-- loader ends -->
+    <!-- custom js file link -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
